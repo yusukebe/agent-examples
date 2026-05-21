@@ -1,0 +1,13 @@
+{
+  "name": "my-agent-app",
+  "private": true,
+  "type": "module",
+  "workspaces": ["examples/*"],
+  "scripts": {
+    "dev": "bun --filter '*' dev",
+    "build": "bun --filter '*' build"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.29.0"
+  }
+}
